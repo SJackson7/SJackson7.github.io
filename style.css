@@ -1,0 +1,40 @@
+h1{
+    font-size: 22px;
+}
+
+/* Comment in CSS */
+.blue{
+    color: rgb(0, 17, 255);
+}
+.red{
+    color: rgb(219, 49, 19);
+}
+
+/* ID Reference */
+#purple{
+    color: rgb(116, 0, 145);
+}
+
+.alignLeft{
+    text-align: left;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.white{
+    color: whitesmoke;
+}
+
+.blackBackground{
+    background-color: black;
+}
+
+body{
+    background-color: rgb(19, 187, 199);
+}
