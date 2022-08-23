@@ -1,18 +1,18 @@
 h1{
-    font-size: 22px;
+    font-size: 80px;       
 }
 
 /* Comment in CSS */
 .blue{
-    color: rgb(0, 17, 255);
-}
-.red{
-    color: rgb(219, 49, 19);
+    color: blue;
 }
 
-/* ID Reference */
+.red{
+    color: red;
+}
+
 #purple{
-    color: rgb(116, 0, 145);
+    color: purple;
 }
 
 .alignLeft{
@@ -28,7 +28,7 @@ h1{
 }
 
 .white{
-    color: whitesmoke;
+    color: white;
 }
 
 .blackBackground{
@@ -36,5 +36,5 @@ h1{
 }
 
 body{
-    background-color: rgb(19, 187, 199);
+    background-color: bisque;
 }
