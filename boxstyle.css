@@ -10,6 +10,50 @@ body{
 }
 
 .greenbox{
-    /* colors a box green */
-    background: green;
+    /* colors a box  */
+    background: rgb(21, 158, 73);
+}
+
+.redbox{
+    /* colors a box  */
+    background: crimson;
+}
+
+.bluebox{
+    /* colors a box  */
+    background: cadetblue;
+}
+
+.violetbox{
+    /* colors a box  */
+    background: rgb(71, 36, 71);
+}
+.yellowbox{
+    /* colors a box  */
+    background: rgb(121, 121, 60);
+}
+
+/* use the @media handle to implement a media query*/ 
+@media(max-width: 600px)
+{
+    /* to modify green box */
+    .greenbox{
+        background: black;
+    }
+    /* modify the redbox to display a red circle */
+    .redbox{
+        border-radius: 50%; /* rounds the edges */
+        border: solid 2px black;
+    }
+
+    /* make the bluebox do something fun! */
+    .bluebox{
+        transform: rotate(360deg);
+        transition: transform 0.7s ease-in;
+    }
+
+    /* make the violetbox disappear */
+    .violetbox{
+        display: none;
+    }
 }
